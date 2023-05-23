@@ -24,11 +24,7 @@
                     src="assets/asset.glb"
                 ></a-asset-item>
             
-            <a-marker type="pattern" url="https://raw.githubusercontent.com/guarim/Test-AR/main/marker.patt">
-            <a-text position="0 0 0" rotation="-90 0 0" height="3" width="3" color="red" value="ABEILLE">
-            </a-text>
-            </a-marker>
-            </a-assets>
+             </a-assets>
           
             <a-marker
                 id="animated-marker"
@@ -48,6 +44,8 @@
                     class="clickable"
                     gesture-handler
                 ></a-entity>
+                <a-text position="0 0 1" rotation="-90 0 0" height="3" width="3" color="red" value="ABEILLE">
+                    </a-text>
             </a-marker>
 
             <a-entity camera></a-entity>
